@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="RESET" android:id="@+id/resetItem"/>
+    <item android:title="search" android:icon="@drawable/ic_search" app:showAsAction="ifRoom"/>
+    <item android:title="Select" android:id="@+id/select">
+    <menu >
+    <group android:id="@+id/group3"
+        android:checkableBehavior="single">
+        <item android:title="3X3" android:id="@+id/size3"/>
+        <item android:title="4X4" android:id="@+id/size4"/>
+        <item android:title="5X5" android:id="@+id/size5"/>
+    </group>
+    </menu>
+    </item>
+
+</menu>
